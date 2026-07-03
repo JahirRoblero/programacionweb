@@ -1,0 +1,121 @@
+* {
+  font-family: "Google Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.encabezado {
+  background: rgb(255, 173, 66);
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.encabezado p {
+  margin: 0;
+  font-weight: 900
+}
+
+.imagen-personaje {
+   width: 100px;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.35));
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+.main {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #bbb;
+  border-radius: 9px;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 450px;
+}
+
+.calculadora,
+.resultados {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+button {
+  border: 1px solid #bbb;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  background: rgb(251, 183, 37);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(255, 175, 3);
+  transform: scale(1.02);
+}
+
+.foot{
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 20px 0;
+}
+
+.boton-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 175, 3);
+  color: black;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+.boton-menu:hover {
+  background: rgb(255, 176, 6);
+  transform: scale(1.02);
+}
+
+.boton-menu:visited {
+  color: black;
+}

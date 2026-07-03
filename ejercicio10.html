@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converit Grados</title>
+    <link rel="stylesheet" href="css/calcularGrados.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="encabezado">
+      <img class="imagen-personaje" src="img/celsius.png" />
+      <p>Convertir grados Celsius a Fahrenheit</p>
+      <img class="imagen-personaje" src="img/faren.png" />
+    </section>
+
+    <div class="contenedor-menu">
+      <a class="boton-menu" href="index.html">Volver al menu</a>
+    </div>
+
+    <main>
+      <div class="main">
+        <div class="contenedor calculadora">
+          <label>Ingresa la temperatura en grados Celsius</label>
+          <input
+            type="number"
+            id="valorCelcius"
+            placeholder="Ej. 10"
+            required autofocus
+          />
+          <button type="button" onclick="calcular()">Convertir</button>
+        </div>
+
+        <div class="contenedor resultados">
+          <label>El equivalente a grados Fahrenheit es:</label>
+          <input
+            type="number"
+            id="gradosFahrenheit"
+            placeholder="Aqui aparecera tu conversión"
+            readonly
+          />
+
+          <button type="button" onclick="limpiar()">Limpiar</button>
+        </div>
+      </div>
+    </main>
+
+     <footer class="foot">
+        <p>© GOMEZ ROBLERO ANGEL JAHIR ®</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/calcularGrados.js"></script>
+  </body>
+
+ 
+</html>
