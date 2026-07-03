@@ -14,22 +14,25 @@ h1{
 }
 .encabezado {
   padding: 20px;
-  background: linear-gradient(180deg,#130706 0%, #090303 45%, #180604 75%, #2a0b03 100%);
+  background: linear-gradient(
+  135deg,
+  #060101 0%,
+  #120403 35%,
+  #2a0703 65%,
+  #5a1205 100%
+);
   text-align: center;
 }
 
 #menu-span{
     font-family: 'Montserrat';
-    color: rgb(42, 229, 0);
+    color: rgb(255, 255, 255);
 }
 
 #menu-ejercicios{
     color: red;
 }
 
-P{
-    color: white;
-}
 main{
 flex-grow: 1;
 }
@@ -45,13 +48,12 @@ flex-grow: 1;
 
 .ejercicio{
     border: 1px solid #bbb;
-    padding: 15px;
+    padding: 20px;
     border-radius: 9px;
-    min-width: 200px;
+    min-width: 220px;
     text-align: center;
     transition: all 0.3s ease;
 }
-
 .ejercicio:hover{
     scale: calc(1.04);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
@@ -69,4 +71,8 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+}
+
+.number {
+    color: red;
 }

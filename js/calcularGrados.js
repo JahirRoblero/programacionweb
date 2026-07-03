@@ -16,9 +16,8 @@ function calcular() {
 
   let valorFahrenheit = parseInt(valorCelsius) * (9 / 5) + 32;
 
-  document.getElementById("gradosFahrenheit").value = valorFahrenheit;
+  document.getElementById("gradosFahrenheit").value = valorFahrenheit + "°F";
 }
-
 
 function limpiar() {
   document.getElementById("valorCelcius").value = "";
