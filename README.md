@@ -17,11 +17,3 @@ En el ejercicio número 5 se combina texto con enlaces. En el ejercicio número 
 Finalmente, en el ejercicio número 10 se incorpora JavaScript para crear una calculadora que convierte grados Celsius a Fahrenheit.
 
 El objetivo de esta actividad es reunir los ejercicios realizados en clase dentro de un solo repositorio de GitHub y publicarlos mediante GitHub Pages, para poder visualizarlos desde un navegador web.
-
-## Enlaces
-
-Repositorio de GitHub:
-Aquí va el enlace del repositorio.
-
-Página publicada en GitHub Pages:
-Aquí va el enlace de la página publicada.
