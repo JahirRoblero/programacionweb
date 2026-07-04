@@ -104,8 +104,8 @@ function calculos(event) {
         .join(", ");
 
     document.getElementById("promedio").value = promedio.toFixed(2);
-    document.getElementById("calificacionMaxima").value = nombresEstudiantesMaximos;
-    document.getElementById("calificacionMinima").value = nombresEstudiantesMinimos;
+    document.getElementById("calificacionMaxima").value = `${nombresEstudiantesMaximos} - ${calificacionMaxima}`;
+    document.getElementById("calificacionMinima").value = `${nombresEstudiantesMinimos} - ${calificacionMinima}`;
 }
 
 function limpiar() {
