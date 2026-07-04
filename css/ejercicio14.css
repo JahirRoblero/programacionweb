@@ -1,0 +1,88 @@
+* {
+  font-family: "Google Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 15px;
+  max-width: 500px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #bbb;
+  border-radius: 7px;
+}
+
+.encabezado {
+  text-align: center;
+  background:
+    radial-gradient(
+      circle at 15% 45%,
+      rgba(255, 255, 255, 0.32),
+      transparent 32%
+    ),
+    linear-gradient(
+      120deg,
+      #064e3b 0%,
+      #047857 28%,
+      #10b981 55%,
+      #34d399 78%,
+      #a7f3d0 100%
+    );
+
+    padding: 20px;
+}
+
+.resultados {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.calculadora {
+    color: white;
+}
+
+button {
+    background-color: #10b981;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color:#129f70;
+    scale: calc(1.06);
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

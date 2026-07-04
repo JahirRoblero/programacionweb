@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/ejercicio14.css">
+</head>
+<body>
+    <div class="encabezado">
+        <h1><span class="calculadora">CALCULADORA DE</span> UN ARREGLO</h1>
+    </div>
+    <form class="formulario">
+        <div class="contenedor">
+            <label for="arregloNumeros">Ingresa tu arreglo de números</label>
+           <input 
+                type="text" 
+                id="arregloNumeros" 
+                pattern="^[0-9]+([\s,]+[0-9]+)*$" 
+                placeholder="Ej. 1, 2, 3, 4" 
+                autofocus
+                required>
+
+            <button onclick="calcular(event)">Calcular</button>
+            <label>Tus resultados: </label>
+            <div class="resultados">
+                <p>Numero mayor: </p> <input type="number" id="numeroMayor" readonly placeholder="Aquí aparecera el numero Mayor">
+                <p>Numero menor: </p> <input type="number" id="numeroMenor" readonly placeholder="Aquí aparecera el numero Menor">
+                <p>Promedio: </p> <input type="number" id="promedio" readonly placeholder="Aquí aparecera el promedio">
+                <button>Limpiar</button>
+            </div>
+        </div>
+    </form>
+
+    <footer>
+        <p>GOMEZ ROBLERO ANGEL JAHIR</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/ejercicio14.js"></script>
+</body>
+</html>

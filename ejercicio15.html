@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/ejercicio15.css">
+</head>
+<body>
+    
+    <div class="encabezado">
+        <h1>Calculadora de alumnos del Tec</h1>
+    </div>
+
+    <form class="formulario">
+        <div class="contenedor">
+            <label>Ingresa el nombre del estudiante</label>
+            <input type="text" id="nombreEstudiante" placeholder="Ej. Jahir Roblero">
+
+            <label>Ingresa la calificación del estudiante</label>
+            <input type="number" id="calificacionEstudiante" placeholder="Ej. 100">
+
+            <button onclick="agregarEstudiante(event)">Agregar estudiante</button>
+            <button onclick="calculos(event)">Hacer calculos</button>
+            
+            <label>Resultados: </label>
+            <label for="promedio">Promedio de las calificaciones</label>
+            <input type="number" id="promedio" readonly>
+            <label for="calificacionMaxima">Calificacion Maxima</label>
+            <input type="text" id="calificacionMaxima" readonly>
+            <label for="calificacionMinima">Calificación Minima</label>
+            <input type="text" id="calificacionMinima" readonly>
+            <button onclick="reiniciar()">Reiniciar</button>
+        </div>
+    </form>
+
+    <section class="resultados">
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/ejercicio15.js"></script>
+</body>
+</html>

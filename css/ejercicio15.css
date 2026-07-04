@@ -1,0 +1,40 @@
+*{
+  font-family: "Google Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px;
+    align-items: center;   
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 15px;
+    max-width: 500px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+}
+
+.encabezado{
+    text-align: center;
+}
+
+.resultados {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

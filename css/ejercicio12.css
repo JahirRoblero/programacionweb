@@ -1,0 +1,101 @@
+*{
+  font-family: "Google Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px;
+    align-items: center;   
+    flex-grow: 1;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 15px;
+    border: 1px solid #bbb;
+    border-radius: 9px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+}
+
+.encabezado{
+    text-align: center;
+    background:
+  radial-gradient(circle at 15% 50%, rgba(255, 255, 255, 0.55), transparent 35%),
+  linear-gradient(
+    110deg,
+    #f0c8ff 0%,
+    #d78bff 28%,
+    #b833ff 55%,
+    #7b16d9 78%,
+    #4c0d99 100%
+  );
+    padding: 10px;
+}
+
+#mexicanos {
+    color: white;
+}
+
+button {
+    background:  #d78bff;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background: #cc6cff;
+    scale: calc(1.03);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 20px 0;
+}
+.boton-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  #d78bff;
+  color: black;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+.boton-menu:hover {
+  background:  #cc6cff;
+  transform: scale(1.02);
+}
+
+.boton-menu:visited {
+  color: black;
+}
