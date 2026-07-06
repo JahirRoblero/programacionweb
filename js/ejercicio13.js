@@ -16,7 +16,6 @@ function verificar(event) {
     }).then(() => {
       limpiar();
     });
-
     return;
   }
 

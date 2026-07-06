@@ -1,0 +1,107 @@
+*{
+  font-family: "Google Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px;
+    align-items: center;   
+    flex-grow: 1;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 15px;
+    border: 1px solid #c7c7c7bb;
+    border-radius: 7px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+}
+
+.encabezado{
+    background: linear-gradient(269deg,rgba(0, 183, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.kilometros {
+    color: white;
+}
+
+button {
+    background: #27b3ff;
+}
+
+button:hover {
+    background-color: #0085cd ;
+    scale: calc(1.03);
+    transition: all 0.3s ease;
+}
+
+#limpiar {
+    background-color: #27b3ff;
+    transition: all 0.3s ease;
+}
+
+#limpiar:hover {
+    background-color: #0085cd;
+    scale: calc(1.03);
+}
+
+.foot {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 20px 0;
+}
+.boton-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #27b3ff;
+  color: black;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+.boton-menu:hover {
+  background: #0085cd;
+  transform: scale(1.02);
+}
+
+.boton-menu:visited {
+  color: black;
+}
