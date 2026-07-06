@@ -70,10 +70,3 @@ const agregarElemento = () => {
 };
 
 botonAgregar.addEventListener("click", agregarElemento);
-
-input.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
-    event.preventDefault();
-    agregarElemento();
-  }
-});
